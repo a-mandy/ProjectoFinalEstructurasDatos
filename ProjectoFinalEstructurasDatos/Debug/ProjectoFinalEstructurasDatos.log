@@ -1,4 +1,5 @@
-﻿  Tail.cpp
-  main.cpp
-  Generando código...
-  ProjectoFinalEstructurasDatos.vcxproj -> C:\Users\Usuario\source\repos\ProjectoFinalEstructurasDatos\Debug\ProjectoFinalEstructurasDatos.exe
+﻿  gestor.cpp
+gestor.obj : error LNK2019: símbolo externo "public: class Tail * __thiscall NodoListaSnake::getInfo(void)" (?getInfo@NodoListaSnake@@QAEPAVTail@@XZ) sin resolver al que se hace referencia en la función "public: void __thiscall Gestor::logic(class Jugador *)" (?logic@Gestor@@QAEXPAVJugador@@@Z)
+gestor.obj : error LNK2019: símbolo externo "public: void __thiscall NodoListaSnake::paint(int,int)" (?paint@NodoListaSnake@@QAEXHH@Z) sin resolver al que se hace referencia en la función "public: void __thiscall Gestor::drawSnake(int,int)" (?drawSnake@Gestor@@QAEXHH@Z)
+gestor.obj : error LNK2019: símbolo externo "public: void __thiscall Snakelist::move(int,int)" (?move@Snakelist@@QAEXHH@Z) sin resolver al que se hace referencia en la función "public: void __thiscall Gestor::logic(class Jugador *)" (?logic@Gestor@@QAEXPAVJugador@@@Z)
+C:\Users\Usuario\source\repos\ProjectoFinalEstructurasDatos\Debug\ProjectoFinalEstructurasDatos.exe : fatal error LNK1120: 3 externos sin resolver

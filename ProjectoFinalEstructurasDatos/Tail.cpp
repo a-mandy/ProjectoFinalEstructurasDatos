@@ -1,7 +1,6 @@
 #include "Tail.h"
 
-Tail::Tail()
-{
+Tail::Tail(){
 }
 Tail::Tail(int px, int py) {
 	x = px;
@@ -12,28 +11,23 @@ Tail::~Tail()
 {
 }
 
-int Tail::getY()
-{
+int Tail::getY(){
 	return y;
 }
 
-void Tail::setY(int py)
-{
+void Tail::setY(int py){
 	y = py;
 }
 
-int Tail::getX()
-{
+int Tail::getX(){
 	return x;
 }
 
-void Tail::setX(int px)
-{
+void Tail::setX(int px){
 	x = px;
 }
 
-string Tail::getTail()
-{
+string Tail::getTail(){
 	return tail;
 }
 

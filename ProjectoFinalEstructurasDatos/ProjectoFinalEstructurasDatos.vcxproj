@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -111,11 +111,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ColaJugadores.cpp" />
+    <ClCompile Include="gestor.cpp" />
+    <ClCompile Include="jugador.cpp" />
+    <ClCompile Include="ListaMejoresPuntajes.cpp" />
+    <ClCompile Include="NodoColaJugadores.cpp" />
+    <ClCompile Include="NodoListaSnake.cpp" />
+    <ClCompile Include="NodoPilaFrutas.cpp" />
+    <ClCompile Include="NodoListaMejoresPuntajes.cpp" />
+    <ClCompile Include="Partida.cpp" />
+    <ClCompile Include="Pilafrutas.cpp" />
+    <ClCompile Include="SnakeList.cpp" />
+    <ClCompile Include="UI.cpp" />
     <ClCompile Include="Tail.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="nodoTail.h" />
+    <ClInclude Include="gestor.h" />
+    <ClInclude Include="ColaJugadores.h" />
+    <ClInclude Include="ListaMejoresPuntajes.h" />
+    <ClInclude Include="NodoColaJugadores.h" />
+    <ClInclude Include="NodoListaMejoresPuntajes.h" />
+    <ClInclude Include="Partida.h" />
+    <ClInclude Include="jugador.h" />
+    <ClInclude Include="NodoPilaFrutas.h" />
+    <ClInclude Include="NodoListaSnake.h" />
+    <ClInclude Include="Pilafrutas.h" />
     <ClInclude Include="Tail.h" />
     <ClInclude Include="snakeList.h" />
   </ItemGroup>
